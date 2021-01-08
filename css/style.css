@@ -1,0 +1,374 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0
+}
+
+main {
+    background-color: white;
+}
+
+i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img {
+    width: inherit;
+}
+
+.nav {
+    background-image: url("../img/app.jpg");
+    background-color: #cccccc;
+    height: 735px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav .form {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 10px;
+}
+
+.nav .form h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.nav .form h3 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.nav .form button {
+    width: 95%;
+    margin: 10px 2%;
+    padding: 5px 18px;
+    border-radius: 6px;
+    background-color: #7ca166;
+    color: white;
+}
+
+.nav hr {
+    border: 1px solid white;
+    margin: 20px 4%;
+}
+
+.nav .left {
+    margin: auto;
+    padding-right: 20%;
+}
+
+.nav .right {
+    margin: auto;
+}
+
+.nav .right button {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.content-a {
+    background-color: white;
+}
+
+.content-a .left {
+    margin: 120px auto;
+    padding-right: 20px;
+}
+
+.content-a .left h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content-a .left h2 {
+    color: #4daf50;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content-a .left p {
+    font-size: 20px;
+}
+
+.content-a .left .text::before {
+    content: "Take photos like a pro.";
+    font-size: 25px;
+}
+
+.content-a .left .logo {
+    margin-top: 20px;
+}
+
+.content-a .left .logo .fa-android {
+    color: chartreuse;
+}
+
+.content-a .left .logo .fa-apple {
+    color: black;
+}
+
+.content-a .left .logo .fa-windows {
+    color: #2b96f3;
+}
+
+.content-a .left button {
+    border: none;
+    padding: 10px 20px;
+}
+
+.content-a .right {
+    margin: 100px auto;
+    padding-left: 8%;
+}
+
+.content-b {
+    background-color: #f1f1f1;
+}
+
+.content-b .left {
+    margin: 100px auto;
+    padding-right: 8%;
+}
+
+.content-b .right {
+    margin: 120px auto;
+    padding-left: 20px;
+}
+
+.content-b .right h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.content-b .right h2 {
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.content-b .right p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.content-b .right .text::before {
+    content: "A revolution in resolution.";
+    font-size: 25px;
+}
+
+.content-c {
+    background-color: #616161;
+}
+
+.content-c .a {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.content-c h1 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.content-c h3 {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.content-c p {
+    margin-top: 20px;
+    color: white;
+}
+
+.content-c .fas,
+.far {
+    font-size: 60px;
+}
+
+.content-c .fa-bolt {
+    color: #ff9800;
+}
+
+.content-c .fa-heart {
+    color: red;
+}
+
+.content-c .fa-camera {
+    color: yellow;
+}
+
+.content-c .fa-battery-full {
+    color: #4daf50;
+}
+
+.content-c .fa-gem {
+    color: white;
+}
+
+.content-c .fa-cloud {
+    color: #2b96f3;
+}
+
+.content-c .fa-globe-asia {
+    color: #ffc107;
+}
+
+.content-c .fa-hdd {
+    color: #15b5ca;
+}
+
+.content-c .fa-user {
+    color: white;
+}
+
+.content-c .fa-shield-alt {
+    color: #ff9800;
+}
+
+.content-c .fa-wifi {
+    color: #757575;
+}
+
+.content-c .fa-image {
+    color: #e93763;
+}
+
+.footer {
+    background-color: white;
+}
+
+.footer h1 {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.footer h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer table th,
+td {
+    border: 1px solid black;
+}
+
+.footer table th {
+    padding: 20px 0;
+    font-size: 25px;
+    color: white;
+}
+
+.footer table tr:nth-child(2) td {
+    padding: 10px 0;
+}
+
+.footer .left tr:nth-child(2) td::before {
+    content: "250";
+    color: black;
+    font-weight: bold;
+}
+
+.footer .right tr:nth-child(2) td::before {
+    content: "1000";
+    color: black;
+    font-weight: bold;
+}
+
+.footer table tr:nth-child(3) td {
+    padding: 10px 0;
+}
+
+.footer .left tr:nth-child(3) td::before {
+    content: "10";
+    color: black;
+    font-weight: bold;
+}
+
+.footer .right tr:nth-child(3) td::before {
+    content: "50";
+    color: black;
+    font-weight: bold;
+}
+
+.footer table tr:nth-child(4) td {
+    padding: 10px 0;
+}
+
+.footer table tr:nth-child(4) td::before {
+    content: "No";
+    color: black;
+    font-weight: bold;
+}
+
+.footer table tr:nth-child(5) td {
+    padding: 10px 0;
+}
+
+.footer .left tr:nth-child(5) td::before {
+    content: "Office hours";
+    color: black;
+    font-weight: bold;
+}
+
+.footer .right tr:nth-child(5) td::before {
+    content: "Endless";
+    color: black;
+    font-weight: bold;
+}
+
+.footer table tr:nth-child(6) td {
+    padding: 25px 0;
+    font-size: 25px;
+    color: #a5a5a5;
+}
+
+.footer table tr:nth-child(7) td {
+    padding: 25px 0;
+    background-color: #f1f1f1;
+}
+
+.footer table {
+    text-align: center;
+    width: 100%;
+}
+
+.footer table button {
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+}
+
+.footer-logo {
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-logo h3 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer-logo a {
+    color: black;
+    text-decoration: underline;
+}

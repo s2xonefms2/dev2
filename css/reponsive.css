@@ -1,0 +1,63 @@
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        position: relative;
+    }
+    .nav .right {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .col-md-6,
+    .col-ld-6 {
+        padding: 0;
+    }
+    .nav .left {
+        margin: 0;
+        padding: 0;
+    }
+    .nav .left .form h1,
+    h3,
+    hr {
+        display: none;
+    }
+    .nav .form {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .nav .form button {
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        border: none;
+    }
+    .nav .right button {
+        width: 100%;
+        border-radius: 0;
+        font-size: 25px;
+        border: none;
+    }
+    .content-a .left {
+        margin: 10px 0;
+    }
+    .content-a .right {
+        margin: 10px 0;
+    }
+    .content-b .left {
+        margin: 10px 0;
+    }
+    .content-b .right {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer .right {
+        margin-top: 30px;
+    }
+}
